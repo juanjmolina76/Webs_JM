@@ -1,0 +1,148 @@
+#titulo {
+    color: tomato;
+}
+
+p.especial {
+    color: mediumseagreen;
+}
+
+p.texto {
+    color: slateblue; 
+} 
+
+div p {
+    color: aquamarine;
+
+}
+
+div h2, div h3 {
+    color: brown;
+
+}
+
+* {
+    font-size: 24px;
+    /*color: black; /*esto no va a cambiar todo porque primero fueron definidos por otro selecor*/
+}
+/* esto es un comentario para mi mismo*/
+
+/* 
+esto es un comentario que tiene muuuuchas 
+lineas
+escritas
+renglones
+*/
+/*
+.color {
+    color: #af0000;
+}
+.color {
+    color: rgb(0,255,255)
+}
+*/
+.color {
+    /* border: 10px red dashed; */
+
+    /* 
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+
+
+*/
+
+border-style: solid;
+border-color: blue;
+border-radius: 5px;
+border-width: 2rem;
+
+
+
+}
+
+#fondo {
+    background-color: rgb(141, 3, 3); 
+    /* opacity: 0.3 ; */
+    height: 400px; 
+    background: hwb(192 5% 67%) url("Pnorte2.jpg") repeat-y bottom / 240px 240px;
+    
+    
+}
+    
+p.articulado {
+ 
+
+}    
+.margen {
+    background-color: chocolate;
+    margin: 15px 20px 25px 30px; 
+    padding: 30px 35px 40px 45px;
+    border: 2px solid black;
+    height: 50px;
+    width: 3px;
+    overflow: scroll;
+    outline: 2px solid red;
+
+}
+.texto {
+    font-family: "roboto mono", sans-serif;
+    text-align: justify;
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px green;
+
+}
+a:link {
+    color:blueviolet;
+}
+a:visited {
+    color: gray;
+}
+a:hover {
+    color: yellow;
+}
+a:active {
+    color: red;
+}
+ul {
+    background-color: tan;
+    list-style-type: none;
+    padding-left: 36px;
+    list-style-position: initial;
+ }
+ table {
+    width: 100%;
+    border-collapse: collapse;
+ }
+
+ th, td {
+    border: solid 1px  #eee;
+    padding: 5px;
+
+ }
+ th {
+    background-color: tomato;
+    color: rgb(255, 255, 255);
+    text-align: left;
+ }
+ tr:nth-child(even) {
+    background-color: #eee;
+ }
+
+ tr:hover {
+    background-color: #aaa;
+    cursor: pointer;
+    
+ }
+span {
+    display: block;
+}
+.inline {
+    display: inline;
+}
