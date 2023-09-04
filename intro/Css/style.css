@@ -12,12 +12,15 @@ p.texto {
 
 div p {
     color: aquamarine;
-
+   border: 2PX black dotted;
+   border-radius: 3PX;
+    
+ 
 }
 
 div h2, div h3 {
     color: brown;
-
+/*  */
 }
 
 * {
@@ -38,7 +41,7 @@ renglones
 }
 .color {
     color: rgb(0,255,255)
-}
+} 
 */
 .color {
     /* border: 10px red dashed; */
@@ -69,7 +72,7 @@ border-width: 2rem;
 
 #fondo {
     background-color: rgb(141, 3, 3); 
-    /* opacity: 0.3 ; */
+    opacity: 0.3 ; */
     height: 400px; 
     background: hwb(192 5% 67%) url("Pnorte2.jpg") repeat-y bottom / 240px 240px;
     
@@ -88,7 +91,7 @@ p.articulado {
     height: 50px;
     width: 3px;
     overflow: scroll;
-    outline: 2px solid red;
+    outline: 10px solid red;
 
 }
 .texto {
